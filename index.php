@@ -25,9 +25,9 @@
 <body>
 
 <form action="" method="post">
-	   <input type="text" name="topic" id="" placeholder="Subject"><br>
-	   <input type="text" name="recipient" id="" placeholder="To"><br>
-	   <textarea name="message" id="" cols="30" rows="10" placeholder="Content"></textarea>
+	   <input type="text" name="topic" id="" placeholder="Temat"><br>
+	   <input type="text" name="recipient" id="" placeholder="Do"><br>
+	   <textarea name="message" id="" cols="30" rows="10" placeholder="Treść"></textarea>
 	   <input type="submit" name="sendMessage" id="" value="Wyślij">
 <?php
 
