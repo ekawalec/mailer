@@ -47,6 +47,6 @@
 		$result = $mailer->send($message);
 		   }
 ?>
-</form>
+	</form>
 </body>
 </html>
