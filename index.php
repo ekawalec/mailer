@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 	<?php
-		require 'vendor/swiftmailer/swiftmailer/lib/swift_required.php';
+		require 'vendor/autoload.php';
 		require 'mail_cfg.php';
 	?>
 <head>
