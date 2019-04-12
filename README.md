@@ -1,0 +1,5 @@
+# mailer
+taki error wyskakuje
+
+
+Fatal error: Uncaught ReflectionException: Class Egulias\EmailValidator\EmailValidator does not exist in C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php:327 Stack trace: #0 C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php(327): ReflectionClass->__construct('Egulias\\EmailVa...') #1 C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php(341): Swift_DependencyContainer->createNewInstance('email.validator') #2 C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php(117): Swift_DependencyContainer->createSharedInstance('email.validator') #3 C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php(389): Swift_DependencyContainer->lookup('email.validator') #4 C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php(366): Swift_DependencyContainer->lookupRecursive('email.validator') #5 C:\wa in C:\wamp64\www\mailer\vendor\swiftmailer\swiftmailer\lib\classes\Swift\DependencyContainer.php on line 327
